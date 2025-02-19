@@ -37,7 +37,7 @@ function AdminDashboard() {
 
   return (
     <div className="flex h-screen bg-[#FBFBFB] bg-gradient-to-br from-[#E8F9FF] to-[#C4D9FF]">
-      <nav className="bg-white shadow-lg w-1/5 h-screen fixed left-0 top-0 flex flex-col p-5">
+      <nav className="bg-white shadow-lg w-1/5 h-screen fixed left-0 top-0 flex flex-col">
         <h1 className="text-3xl font-bold text-gray-800 text-center mt-5">
           Dashboard
         </h1>
