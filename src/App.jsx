@@ -1,12 +1,8 @@
-import Login from "./Pages/Login";
-import UserRegistration from "./Pages/UserRegistration";
-import AdminRegistration from "./Pages/AdminRegistration";
-import ForgotPassword from "./Pages/ForgotPassword";
-
+import AppRoutes from "./AppRoutes";
 function App() {
   return (
     <>
-      <ForgotPassword />
+      <AppRoutes />
     </>
   );
 }

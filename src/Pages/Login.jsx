@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 function Login() {
 
     return(
@@ -21,7 +23,8 @@ function Login() {
                     </div>
                     <a href="registration.html"></a><button type="submit" class="w-full bg-gradient-to-r from-[#C5BAFF] to-[#C4D9FF] text-white py-2 rounded-lg hover:shadow-lg transition transform hover:scale-105" id="login-js">Login</button>
                 </form>
-                <p class="text-gray-600 text-sm text-center mt-4">Don't have an account? <a id="signup-js" href="#" class="text-[#C5BAFF] font-semibold hover:underline">Sign up</a></p>
+
+                <p class="text-gray-600 text-sm text-center mt-4">Don't have an account? <a id="signup-js" href="#" class="text-[#C5BAFF] font-semibold hover:underline"> <Link to="/userRegistration">Sign up</Link></a></p>
             </div>
         </div>
     );
